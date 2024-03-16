@@ -1,0 +1,91 @@
+.navbar{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp{
+    height: 4rem;
+    width: 6rem;   
+}
+
+.ico-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+
+.ico-container div{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+}
+
+.ico-container div{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.ico-container div:hover{
+    scale: 1.15;
+    transition: 0.8s;
+    background-color: #252525;
+}
+
+.ico-container div:not(:hover){
+    scale: 1.0;
+    transition: 0.6s;
+    background-color: #1a1a1a;
+}
+
+.ico-container img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.reach-icon{
+    height: 40px;
+    width: 40px;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(754%) hue-rotate(323deg) brightness(98%) contrast(85%);
+}
+
+
+.navbarUpper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-left-container{
+    display: flex;
+    gap: 5%;
+}
+
+.upper-left-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 22px;
+    color: #fff;
+}
+
+.student-status{
+    font-size: 16px;
+    white-space: nowrap;
+}
